@@ -57,7 +57,7 @@ function App() {
 
   <Route
     path="/wishlist"
-    element={<Wishlist />}
+    element={<WishList />}
   />
 
       </Routes>
