@@ -12,7 +12,7 @@ import {
   useStore,
 } from "../StoreComponent/StoreContext/StoreContext"
 
-const Wishlist = () => {
+const WishList = () => {
 
   const {
     wishlistItems,
@@ -98,4 +98,4 @@ const Wishlist = () => {
   );
 };
 
-export default Wishlist;
+export default WishList;
