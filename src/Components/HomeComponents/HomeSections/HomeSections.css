@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.home-sections{
+  width:100%;
+  padding:80px 7%;
+  background:#fffaf7;
+  font-family:'Poppins',sans-serif;
+}
+
+/* SECTION HEADING */
+
+.section-heading{
+  margin-bottom:45px;
+}
+
+.new-heading{
+  margin-top:100px;
+}
+
+.section-heading p{
+  color:#7b2c47;
+  font-size:15px;
+  font-weight:600;
+  margin-bottom:12px;
+}
+
+.section-heading h2{
+  font-size:52px;
+  color:#1f1f1f;
+  font-family:'Playfair Display',serif;
+}
+
+/* CATEGORY */
+
+.category-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+}
+
+.category-card{
+  position:relative;
+  height:350px;
+  border-radius:28px;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+.category-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:0.5s ease;
+}
+
+.category-card:hover img{
+  transform:scale(1.08);
+}
+
+.category-overlay{
+  position:absolute;
+  inset:0;
+  background:
+  linear-gradient(
+    to top,
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.1)
+  );
+
+  display:flex;
+  align-items:flex-end;
+  padding:28px;
+}
+
+.category-overlay h3{
+  color:white;
+  font-size:28px;
+  font-family:'Playfair Display',serif;
+}
+
+/* PRODUCTS */
+
+.products-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+}
+
+.product-card{
+  background:white;
+  border-radius:28px;
+  overflow:hidden;
+  box-shadow:0 8px 24px rgba(0,0,0,0.05);
+  transition:0.4s ease;
+}
+
+.product-card:hover{
+  transform:translateY(-8px);
+}
+
+.product-card img{
+  width:100%;
+  height:380px;
+  object-fit:cover;
+}
+
+.product-details{
+  padding:22px;
+}
+
+.product-details h3{
+  font-size:20px;
+  color:#222;
+  margin-bottom:18px;
+}
+
+.product-bottom{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.product-bottom p{
+  color:#7b2c47;
+  font-size:20px;
+  font-weight:700;
+}
+
+.rating{
+  display:flex;
+  align-items:center;
+  gap:5px;
+}
+
+/* LUXURY BANNER */
+
+.luxury-banner{
+  width:100%;
+  height:500px;
+  border-radius:40px;
+  margin-top:100px;
+
+  background:
+  linear-gradient(
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)
+  ),
+
+  url("https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1400&auto=format&fit=crop");
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  align-items:center;
+  padding:70px;
+}
+
+.luxury-content p{
+  color:#f8d7c7;
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+.luxury-content h2{
+  color:white;
+  font-size:72px;
+  line-height:1.1;
+  font-family:'Playfair Display',serif;
+  margin-bottom:30px;
+}
+
+.luxury-content button{
+  padding:16px 34px;
+  border:none;
+  border-radius:50px;
+  background:white;
+  color:#7b2c47;
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.luxury-content button:hover{
+  background:#7b2c47;
+  color:white;
+}
+
+/* BEST SELLERS */
+
+.best-seller-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+}
+
+.best-card{
+  position:relative;
+  border-radius:28px;
+  overflow:hidden;
+  height:430px;
+}
+
+.best-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.best-content{
+  position:absolute;
+  inset:0;
+
+  background:
+  linear-gradient(
+    to top,
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.15)
+  );
+
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+
+  padding:28px;
+}
+
+.best-content span{
+  width:max-content;
+  padding:8px 18px;
+  border-radius:30px;
+  background:white;
+  color:#7b2c47;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:18px;
+}
+
+.best-content h3{
+  color:white;
+  font-size:28px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:12px;
+}
+
+.best-content p{
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+}
+
+.best-card{
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.best-card:hover{
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+
+.best-card img{
+  transition: transform 0.6s ease;
+}
+
+.best-card:hover img{
+  transform: scale(1.08);
+}
+
+.best-content{
+  transition: background 0.4s ease;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+
+.testimonial-card{
+  background:white;
+  padding:35px;
+  border-radius:28px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.05);
+}
+
+.stars{
+  display:flex;
+  gap:5px;
+  margin-bottom:20px;
+}
+
+.testimonial-card p{
+  color:#555;
+  line-height:1.8;
+  margin-bottom:25px;
+}
+
+.testimonial-card h4{
+  color:#222;
+  font-size:18px;
+}
+
+.testimonial-card{
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.testimonial-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+.testimonial-card p{
+  transition: color 0.3s ease;
+}
+
+.testimonial-card:hover p{
+  color:#333;
+}
+
+/* WHY CHOOSE */
+
+.why-section{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+  margin-top:100px;
+}
+
+.why-card{
+  background:white;
+  padding:35px;
+  border-radius:28px;
+  text-align:center;
+  box-shadow:0 8px 24px rgba(0,0,0,0.05);
+}
+
+.why-card svg{
+  color:#7b2c47;
+  margin-bottom:18px;
+}
+
+.why-card h3{
+  color:#222;
+  font-size:20px;
+}
+
+.why-card{
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+  cursor: pointer;
+}
+
+.why-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #fff, #fff5f7);
+}
+
+.why-card svg{
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.why-card:hover svg{
+  transform: scale(1.2) rotate(5deg);
+  color:#5d2137;
+}
+
+.why-card h3{
+  transition: color 0.3s ease;
+}
+
+.why-card:hover h3{
+  color:#7b2c47;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1100px){
+
+  .category-grid,
+  .products-grid,
+  .best-seller-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .testimonial-grid{
+    grid-template-columns:1fr;
+  }
+
+  .why-section{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+@media(max-width:700px){
+
+  .category-grid,
+  .products-grid,
+  .best-seller-grid,
+  .why-section{
+    grid-template-columns:1fr;
+  }
+
+  .section-heading h2{
+    font-size:38px;
+  }
+
+  .luxury-content h2{
+    font-size:42px;
+  }
+
+  .luxury-banner{
+    height:400px;
+    padding:35px;
+  }
+
+}

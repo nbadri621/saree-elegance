@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+.featured-section{
+  width:100%;
+  padding:20px 7% 90px;
+  background:#fffaf7;
+}
+
+/* HEADING */
+
+.featured-heading{
+  margin-bottom:45px;
+}
+
+.featured-heading p{
+  color:#7b2c47;
+  font-size:15px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.featured-heading h2{
+  font-size:52px;
+  color:#1f1f1f;
+  font-family:'Playfair Display',serif;
+}
+
+/* GRID */
+
+.featured-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+}
+
+/* CARD */
+
+.saree-card{
+  background:white;
+  border-radius:28px;
+  overflow:hidden;
+  transition:0.4s ease;
+  box-shadow:0 8px 25px rgba(0,0,0,0.04);
+}
+
+.saree-card:hover{
+  transform:translateY(-8px);
+}
+
+/* IMAGE */
+
+.saree-image{
+  position:relative;
+  height:420px;
+  overflow:hidden;
+}
+
+.saree-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:0.5s ease;
+}
+
+.saree-card:hover img{
+  transform:scale(1.08);
+}
+
+/* OVERLAY */
+
+.hover-overlay{
+  position:absolute;
+  inset:0;
+  background:
+  linear-gradient(
+    to top,
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.15)
+  );
+
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+
+  padding:25px;
+
+  opacity:0;
+  transition:0.4s ease;
+}
+
+.saree-card:hover .hover-overlay{
+  opacity:1;
+}
+
+.hover-overlay span{
+  color:white;
+  font-size:24px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:18px;
+}
+
+.hover-overlay button{
+  width:max-content;
+  padding:12px 24px;
+  border:none;
+  border-radius:40px;
+  background:white;
+  color:#7b2c47;
+  font-size:14px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.hover-overlay button:hover{
+  background:#7b2c47;
+  color:white;
+}
+
+/* WISHLIST */
+
+.wishlist{
+  position:absolute;
+  top:18px;
+  right:18px;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  z-index:5;
+}
+
+/* DETAILS */
+
+.saree-details{
+  padding:22px;
+}
+
+.saree-details h3{
+  font-size:19px;
+  color:#222;
+  margin-bottom:16px;
+  font-weight:600;
+}
+
+.price-rating{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.price-rating p{
+  color:#7b2c47;
+  font-size:20px;
+  font-weight:700;
+}
+
+.rating{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.rating span{
+  font-size:15px;
+  color:#444;
+  font-weight:500;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1200px){
+
+  .featured-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+@media(max-width:700px){
+
+  .featured-grid{
+    grid-template-columns:1fr;
+  }
+
+  .featured-heading h2{
+    font-size:38px;
+  }
+
+  .saree-image{
+    height:360px;
+  }
+
+}

@@ -1,0 +1,297 @@
+[
+  {
+    "category": "Silk Sarees",
+    "slug": "silk-sarees",
+
+    "products": [
+
+      {
+        "id": 1,
+        "name": "Royal Kanchipuram Silk",
+        "price": 12999,
+        "oldPrice": 16999,
+        "offer": "25% OFF",
+        "rating": 4.9,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/c9Rzlq2L38ooyzjKPfZsdjWBiKGUveBM8GdmU5uYHWo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG90aHlzLmNvbS9j/ZG4vc2hvcC9maWxl/cy8yMURfMDc5ZjIw/NDEtNjMyOC00N2Nl/LThjNTItZWMyNmE1/ZGJkMGJlLmpwZz92/PTE3Nzg3NDE3OTMm/d2lkdGg9NTMz"
+      },
+
+      {
+        "id": 2,
+        "name": "Luxury Wedding Silk",
+        "price": 14999,
+        "oldPrice": 19999,
+        "offer": "30% OFF",
+        "rating": 5.0,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/DMiZFBgwhcCLcWF62CNgF5QNvapJ0LAHpSz7n76AC48/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bmFsbGkuY29tL2Nk/bi9zaG9wL2ZpbGVz/L2JlMTM3MTk5MV8y/LmpwZz92PTE3NTYy/MDc5OTQmd2lkdGg9/MTk0Ng"
+      },
+
+      {
+        "id": 3,
+        "name": "Traditional Silk Saree",
+        "price": 10999,
+        "oldPrice": 14999,
+        "offer": "20% OFF",
+        "rating": 4.8,
+        "stock": "Limited Stock",
+        "image": "https://imgs.search.brave.com/JfrcraMdl5oR2YoQjHCKTnN3pPnGkfSyin-3Psb8aEw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YXMudXRzYXZmYXNo/aW9uLmNvbS9tZWRp/YS9jYXRhbG9nL3By/b2R1Y3QvY2FjaGUv/MS9zbWFsbF9pbWFn/ZS8yOTV4LzA0MGVj/MDliMWUzNWRmMTM5/NDMzODg3YTk3ZGFh/NjZmL2cvYS9nYWR3/YWwtcHVyZS1zaWxr/LWNvdHRvbi1oYW5k/bG9vbS1zYXJlZS1p/bi1ncmVlbi12MS1z/dGdhNDYzLmpwZw"
+      },
+
+      {
+        "id": 4,
+        "name": "Premium Designer Silk",
+        "price": 15999,
+        "oldPrice": 21999,
+        "offer": "35% OFF",
+        "rating": 4.9,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/wRdQ1lKEd59QQiX31Ulu70-dRL7WLmI-drndReqdKxI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bmFsbGkuY29tL2Nk/bi9zaG9wL2ZpbGVz/L0VTMDc4OTMwMV9B/SS5qcGc_dj0xNzc0/NDMxMTk3JndpZHRo/PTE5NDY"
+      }
+
+    ]
+  },
+
+  {
+    "category": "Bridal Sarees",
+    "slug": "bridal-sarees",
+
+    "products": [
+
+      {
+        "id": 5,
+        "name": "Bridal Red Saree",
+        "price": 18999,
+        "oldPrice": 25999,
+        "offer": "40% OFF",
+        "rating": 5.0,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/840YY1A5bIWmgVzKQbdWxR8TRDquEEpz-n7lV7uIwak/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdWRh/dGhpLmNvbS9jZG4v/c2hvcC9maWxlcy8z/ODA4UzU1OF8yLmpw/Zz92PTE3NjkwOTA4/NDUmd2lkdGg9MTEw/MA"
+      },
+
+      {
+        "id": 6,
+        "name": "Golden Wedding Saree",
+        "price": 20499,
+        "oldPrice": 27999,
+        "offer": "35% OFF",
+        "rating": 4.9,
+        "stock": "Limited Stock",
+        "image": "https://imgs.search.brave.com/nlR3TxuiKX-f62fiiYD9Qi85ZCnIeQspYx-ioDaoM_k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/a2FseWFuc2lsa3Mu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL3NhcmVl/ZV8yX2FlMGRlYTQx/LThjODItNGVmNi1h/MWI1LWI1NjYxMDE4/ZGNhYi5wbmc_dj0x/Nzc1MTUyOTE3Jndp/ZHRoPTg5Ng"
+      },
+
+      {
+        "id": 7,
+        "name": "Luxury Bridal Wear",
+        "price": 22999,
+        "oldPrice": 30999,
+        "offer": "45% OFF",
+        "rating": 5.0,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/yzpLnftnNGE_KW8n6Rnrj7lPi8Q9qjqMRZtcbNXWSJ4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/a2FseWFuc2lsa3Mu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL3NhcmVl/ZV8zX2QyMWFlOWIx/LTAwZGQtNGZhMC04/YmM4LTMyNzlkYjRj/OWNiMS5wbmc_dj0x/Nzc1MTUzMjg2Jndp/ZHRoPTE3OTI"
+      },
+
+      {
+        "id": 8,
+        "name": "Traditional Bridal Silk",
+        "price": 17999,
+        "oldPrice": 23999,
+        "offer": "28% OFF",
+        "rating": 4.8,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/UaeZ3sPXFAmyxuYSDiynlgJZ7WoczlAsbyU2dHQk8nc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/a2FseWFuc2lsa3Mu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL1VsdHJh/X2hpZ2gtZW5kX2x1/eHVyeV9mYXNoaW9u/XzIwMjYwNDAyMTcy/NC5qcGc_dj0xNzc1/MTUzMDY3JndpZHRo/PTE3OTI"
+      }
+
+    ]
+  },
+
+  {
+    "category": "Designer Sarees",
+    "slug": "designer-sarees",
+
+    "products": [
+
+      {
+        "id": 9,
+        "name": "Modern Party Wear",
+        "price": 8999,
+        "oldPrice": 12999,
+        "offer": "20% OFF",
+        "rating": 4.7,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/Kb8YAFWYU91BQtAJddDZuvPlUWZTwEr7tUDULF1TlWw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMwLm1pcnJhdy5j/b20vaW1hZ2VzLzEy/NTE5MzA3LzEwMDdf/KDIpX2xvbmcuanBn/PzE3MTc3NDUwNjg"
+      },
+
+      {
+        "id": 10,
+        "name": "Luxury Fashion Saree",
+        "price": 11999,
+        "oldPrice": 15999,
+        "offer": "25% OFF",
+        "rating": 4.8,
+        "stock": "Limited Stock",
+        "image": "https://imgs.search.brave.com/wC7j_0Qh5XuSFYEAfo3HLNup8TYSdjXXkSNLQUSr6kU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cG90aHlzLmNvbS9j/ZG4vc2hvcC9maWxl/cy9KQUFaQklBLTku/anBnP3Y9MTc3Nzg5/MTM3MSZ3aWR0aD01/MzM"
+      },
+
+      {
+        "id": 11,
+        "name": "Exclusive Designer",
+        "price": 13499,
+        "oldPrice": 18499,
+        "offer": "30% OFF",
+        "rating": 4.9,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/tFCU3KcIYISgaEcL5BsA6MJzLevJYZ7vlqAOWvBb-pQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg1LzMy/Lzk5Lzg1MzI5OWI5/MjgwZWM5Y2IzNzA5/M2UwZjVmYTIxYzVj/LmpwZw"
+      },
+
+      {
+        "id": 12,
+        "name": "Elegant Party Saree",
+        "price": 9999,
+        "oldPrice": 13999,
+        "offer": "22% OFF",
+        "rating": 4.7,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/tFCU3KcIYISgaEcL5BsA6MJzLevJYZ7vlqAOWvBb-pQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg1LzMy/Lzk5Lzg1MzI5OWI5/MjgwZWM5Y2IzNzA5/M2UwZjVmYTIxYzVj/LmpwZw"
+      }
+
+    ]
+  },
+
+  {
+    "category": "Cotton Sarees",
+    "slug": "cotton-sarees",
+
+    "products": [
+
+      {
+        "id": 13,
+        "name": "Soft Cotton Classic",
+        "price": 4999,
+        "oldPrice": 6999,
+        "offer": "18% OFF",
+        "rating": 4.6,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/K5MnHFaSsWuoZY5dTLcu-knftqYOhrev2sJ6dcMa3Jo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3JheWFuZGdyZWVu/cy5jb20vY2RuL3No/b3AvZmlsZXMvY29w/cGVyLXBvbGthLWRh/YnUtcHJpbnQtc2Fy/ZWUtZnVsbC1sZW5n/dGgucG5nP3Y9MTc2/OTA2NDc4MyZ3aWR0/aD04MzI"
+      },
+
+      {
+        "id": 14,
+        "name": "Daily Wear Cotton",
+        "price": 3999,
+        "oldPrice": 5499,
+        "offer": "15% OFF",
+        "rating": 4.5,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/NElp_gOxPsDb2hCN-TCXqxFlW3viY_Ji2Y3KGdh12-s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMwLm1pcnJhdy5j/b20vaW1hZ2VzLzEz/NDMzOTAzL2ltYWdl/X29yaWdpbmFsX2xv/bmcuanBlZz8xNzUz/Njk4NTA1"
+      },
+
+      {
+        "id": 15,
+        "name": "Traditional Cotton Saree",
+        "price": 5999,
+        "oldPrice": 7999,
+        "offer": "20% OFF",
+        "rating": 4.7,
+        "stock": "Limited Stock",
+        "image": "https://imgs.search.brave.com/X230dlg3CY74SY2BeBxKH4Us0v8_sTpXNn0TkJp2ug8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3JheWFuZGdyZWVu/cy5jb20vY2RuL3No/b3AvZmlsZXMvcGF0/amhhZC1icm93bi1w/b2xrYS1zYXJlZS10/b3Jzby1vbmx5LnBu/Zz92PTE3Njk2Njc5/MzAmd2lkdGg9NzE2"
+      }
+
+    ]
+  },
+
+  {
+    "category": "Banarasi Sarees",
+    "slug": "banarasi-sarees",
+
+    "products": [
+
+      {
+        "id": 16,
+        "name": "Royal Banarasi Gold",
+        "price": 16999,
+        "oldPrice": 21999,
+        "offer": "30% OFF",
+        "rating": 5.0,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/1lAZ4KLNL4_DO6IuDV4ly_BygPpyXWy7tdis2s_HGSg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmFuYXJhc2VlLmlu/L2Nkbi9zaG9wL2Zp/bGVzL0lNR184Nzc0/Xzg3NTk2ZmVjLTRj/YTUtNGZlYi05MzJm/LWNkOTI2ODM3Y2Nj/MF82MDB4LmpwZz92/PTE3NTkxMTg5MTY"
+      },
+
+      {
+        "id": 17,
+        "name": "Luxury Banarasi Silk",
+        "price": 14999,
+        "oldPrice": 19999,
+        "offer": "25% OFF",
+        "rating": 4.9,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/f_9utRq0XE31mxKMzu8EPRku560ti1gvdoR82AsWnBk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdWRh/dGhpLmNvbS9jZG4v/c2hvcC9maWxlcy8z/OTkwUzE1NF8xLmpw/Zz92PTE3NTY0MDM1/MjQmd2lkdGg9MTEw/MA"
+      },
+
+      {
+        "id": 18,
+        "name": "Traditional Banarasi",
+        "price": 13999,
+        "oldPrice": 17999,
+        "offer": "22% OFF",
+        "rating": 4.8,
+        "stock": "Limited Stock",
+        "image": "https://imgs.search.brave.com/xiKNBlZWSATlsdVLh-bjwo7c5UFEtI04EBMe5XA6Joc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YmFuYXJhc2VlLmlu/L2Nkbi9zaG9wL2Zp/bGVzL0lNR184NTQy/XzZjMzIwY2RlLTdl/ZjktNDNhNC05YjMw/LTY4N2E0MDZkNzJj/NV82MDB4LmpwZz92/PTE3NjE5NzQyNzk"
+      }
+
+    ]
+  },
+
+   {
+    "category": "Reception Sarees",
+    "slug": "reception-sarees",
+
+    "products": [
+
+      {
+        "id": 19,
+        "name": "Bridal Red Saree",
+        "price": 18999,
+        "oldPrice": 25999,
+        "offer": "40% OFF",
+        "rating": 5.0,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/840YY1A5bIWmgVzKQbdWxR8TRDquEEpz-n7lV7uIwak/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdWRh/dGhpLmNvbS9jZG4v/c2hvcC9maWxlcy8z/ODA4UzU1OF8yLmpw/Zz92PTE3NjkwOTA4/NDUmd2lkdGg9MTEw/MA"
+      },
+
+      {
+        "id": 20,
+        "name": "Golden Wedding Saree",
+        "price": 20499,
+        "oldPrice": 27999,
+        "offer": "35% OFF",
+        "rating": 4.9,
+        "stock": "Limited Stock",
+        "image": "https://imgs.search.brave.com/nlR3TxuiKX-f62fiiYD9Qi85ZCnIeQspYx-ioDaoM_k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/a2FseWFuc2lsa3Mu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL3NhcmVl/ZV8yX2FlMGRlYTQx/LThjODItNGVmNi1h/MWI1LWI1NjYxMDE4/ZGNhYi5wbmc_dj0x/Nzc1MTUyOTE3Jndp/ZHRoPTg5Ng"
+      },
+
+      {
+        "id": 21,
+        "name": "Luxury Bridal Wear",
+        "price": 22999,
+        "oldPrice": 30999,
+        "offer": "45% OFF",
+        "rating": 5.0,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/yzpLnftnNGE_KW8n6Rnrj7lPi8Q9qjqMRZtcbNXWSJ4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/a2FseWFuc2lsa3Mu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL3NhcmVl/ZV8zX2QyMWFlOWIx/LTAwZGQtNGZhMC04/YmM4LTMyNzlkYjRj/OWNiMS5wbmc_dj0x/Nzc1MTUzMjg2Jndp/ZHRoPTE3OTI"
+      },
+
+      {
+        "id": 22,
+        "name": "Traditional Bridal Silk",
+        "price": 17999,
+        "oldPrice": 23999,
+        "offer": "28% OFF",
+        "rating": 4.8,
+        "stock": "In Stock",
+        "image": "https://imgs.search.brave.com/UaeZ3sPXFAmyxuYSDiynlgJZ7WoczlAsbyU2dHQk8nc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/a2FseWFuc2lsa3Mu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL1VsdHJh/X2hpZ2gtZW5kX2x1/eHVyeV9mYXNoaW9u/XzIwMjYwNDAyMTcy/NC5qcGc_dj0xNzc1/MTUzMDY3JndpZHRo/PTE3OTI"
+      }
+
+    ]
+  }
+]

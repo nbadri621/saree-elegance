@@ -1,0 +1,583 @@
+.collection-page{
+  width:100%;
+  background:#fffaf7;
+  font-family:'Poppins',sans-serif;
+  overflow:hidden;
+}
+
+/* HERO */
+
+.collection-hero{
+  height:70vh;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  padding:0 8%;
+  color:white;
+  position:relative;
+}
+
+.hero-content{
+  max-width:700px;
+}
+
+.hero-content p{
+  font-size:14px;
+  letter-spacing:2px;
+  margin-bottom:18px;
+}
+
+.hero-content h1{
+  font-size:72px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:20px;
+  line-height:1.1;
+}
+
+.hero-content span{
+  font-size:18px;
+  display:block;
+  line-height:1.8;
+}
+
+/* FILTER */
+
+.filter-wrapper{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:40px 8%;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.filter-left{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:600;
+}
+
+.filter-tags{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.filter-tags button{
+  border:none;
+  padding:12px 22px;
+  border-radius:40px;
+  background:white;
+  cursor:pointer;
+  transition:0.3s ease;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+  font-weight:500;
+}
+
+.filter-tags button:hover,
+.filter-tags .active{
+  background:#7b2c47;
+  color:white;
+}
+
+/* FEATURED */
+
+.featured-product{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  padding:0 8% 90px;
+  align-items:center;
+}
+
+.featured-image{
+  overflow:hidden;
+  border-radius:30px;
+}
+
+.featured-image img{
+  width:100%;
+  border-radius:30px;
+  height:650px;
+  object-fit:cover;
+  transition:0.5s ease;
+}
+
+.featured-image:hover img{
+  transform:scale(1.05);
+}
+
+.featured-details p{
+  color:#7b2c47;
+  letter-spacing:2px;
+  margin-bottom:20px;
+  font-weight:600;
+}
+
+.featured-details h2{
+  font-size:58px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:25px;
+  line-height:1.2;
+}
+
+.featured-rating{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:25px;
+}
+
+.featured-details h3{
+  font-size:38px;
+  color:#7b2c47;
+  margin-bottom:25px;
+}
+
+.featured-description{
+  line-height:1.9;
+  display:block;
+  margin-bottom:35px;
+  color:#555;
+}
+
+.featured-buttons{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.featured-buttons button{
+  padding:15px 28px;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  background:#7b2c47;
+  color:white;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.featured-buttons button:hover{
+  transform:translateY(-3px);
+}
+
+.outline-btn{
+  background:white !important;
+  color:#7b2c47 !important;
+  border:2px solid #7b2c47 !important;
+}
+
+/* GRID */
+
+.luxury-grid{
+  padding:0 8% 90px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:35px;
+}
+
+.luxury-card{
+  background:white;
+  border-radius:28px;
+  overflow:hidden;
+  transition:0.4s ease;
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
+}
+
+.luxury-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+.luxury-image{
+  position:relative;
+  overflow:hidden;
+  height:520px;
+}
+
+.luxury-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:0.5s ease;
+}
+
+.luxury-card:hover img{
+  transform:scale(1.08);
+}
+
+.offer-badge{
+  position:absolute;
+  top:20px;
+  left:20px;
+  background:#7b2c47;
+  color:white;
+  padding:8px 16px;
+  border-radius:30px;
+  font-size:13px;
+  z-index:2;
+}
+
+.floating-actions{
+  position:absolute;
+  top:20px;
+  right:20px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  z-index:2;
+}
+
+.floating-actions button{
+  width:45px;
+  height:45px;
+  border:none;
+  border-radius:50%;
+  background:white;
+  cursor:pointer;
+  transition:0.3s ease;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.floating-actions button:hover{
+  background:#7b2c47;
+  color:white;
+  transform:scale(1.1);
+}
+
+.hover-content{
+  position:absolute;
+  bottom:-120px;
+  left:0;
+  width:100%;
+  padding:25px;
+  background:linear-gradient(
+    transparent,
+    rgba(0,0,0,0.8)
+  );
+  color:white;
+  transition:0.4s ease;
+}
+
+.luxury-card:hover .hover-content{
+  bottom:0;
+}
+
+.hover-content h4{
+  margin-bottom:10px;
+  font-size:22px;
+}
+
+.luxury-details{
+  padding:25px;
+}
+
+.luxury-details h3{
+  font-size:24px;
+  margin-bottom:18px;
+}
+
+.luxury-rating{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:18px;
+}
+
+.price-wrapper{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.price-wrapper h4{
+  color:#7b2c47;
+  font-size:24px;
+}
+
+.price-wrapper span{
+  text-decoration:line-through;
+  color:#999;
+}
+
+/* OCCASION */
+
+.occasion-banner{
+  margin:0 8% 90px;
+  background:#7b2c47;
+  border-radius:35px;
+  padding:60px;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:30px;
+}
+
+.occasion-banner h2{
+  font-size:48px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:12px;
+}
+
+.occasion-banner p{
+  line-height:1.8;
+}
+
+.occasion-banner button{
+  padding:15px 28px;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.occasion-banner button:hover{
+  transform:translateY(-3px);
+}
+
+/* MODAL */
+
+.modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.65);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:9999;
+  padding:20px;
+}
+
+.product-modal{
+  width:90%;
+  max-width:1050px;
+  background:white;
+  border-radius:25px;
+  display:flex;
+  gap:40px;
+  padding:30px;
+  position:relative;
+  animation:modalFade 0.4s ease;
+}
+
+/* CLOSE */
+
+.close-btn{
+  position:absolute;
+  top:20px;
+  right:20px;
+  border:none;
+  background:#f5f5f5;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* MODAL IMAGE */
+
+.modal-left{
+  flex:1;
+  height:500px;
+  overflow:hidden;
+  border-radius:20px;
+}
+
+.modal-left img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  border-radius:20px;
+}
+
+/* MODAL DETAILS */
+
+.modal-right{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.modal-right h2{
+  font-size:48px;
+  margin-bottom:25px;
+  font-family:'Playfair Display',serif;
+  line-height:1.2;
+}
+
+.modal-rating{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:25px;
+}
+
+.modal-right h3{
+  color:#7b2c47;
+  font-size:34px;
+  margin-bottom:25px;
+}
+
+.modal-right p{
+  line-height:1.9;
+  margin-bottom:35px;
+  color:#555;
+}
+
+.modal-buttons{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.modal-buttons button{
+  padding:15px 26px;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  background:#7b2c47;
+  color:white;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.modal-buttons button:hover{
+  transform:translateY(-3px);
+}
+
+/* EMPTY */
+
+.no-products{
+  min-height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.no-products h1{
+  font-size:52px;
+  font-family:'Playfair Display',serif;
+  color:#7b2c47;
+}
+
+/* ANIMATION */
+
+@keyframes modalFade{
+
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1100px){
+
+  .featured-product{
+    grid-template-columns:1fr;
+  }
+
+  .luxury-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .product-modal{
+    flex-direction:column;
+  }
+
+  .hero-content h1{
+    font-size:54px;
+  }
+
+}
+
+@media(max-width:750px){
+
+  .luxury-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero-content h1{
+    font-size:42px;
+  }
+
+  .hero-content span{
+    width:100%;
+    font-size:16px;
+  }
+
+  .featured-details h2,
+  .occasion-banner h2,
+  .modal-right h2{
+    font-size:36px;
+  }
+
+  .featured-image img{
+    height:450px;
+  }
+
+  .modal-left{
+    height:350px;
+  }
+
+  .modal-right{
+    padding:10px;
+  }
+
+  .occasion-banner{
+    padding:40px 25px;
+  }
+
+  .collection-hero{
+    height:60vh;
+  }
+
+}
+
+.toast-message{
+  position:fixed;
+  top:100px;
+  right:30px;
+  background:#7b2c47;
+  color:white;
+  padding:15px 25px;
+  border-radius:12px;
+  z-index:99999;
+  font-weight:600;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  animation:slideIn 0.3s ease;
+}
+
+@keyframes slideIn{
+
+  from{
+    opacity:0;
+    transform:translateX(40px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateX(0);
+  }
+
+}
