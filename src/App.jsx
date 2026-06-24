@@ -13,7 +13,7 @@ import Collections from './Components/CollectionComponent/Collections/Collection
 
 import Cart from './Components/CartComponent/Cart'
 
-import Wishlist from './Components/WishlistComponent/WishList'
+import WishList from './Components/WishlistComponent/WishList'
 import Footer from './Footer/Footer'
 
 function App() {
